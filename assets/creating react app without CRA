@@ -1,0 +1,19 @@
+Try to update your webpack dependencies with the following command
+
+npm install --save-dev webpack webpack-cli webpack-dev-server
+if it does not work then use as following
+
+I am having these dependencies but I faced the same issue
+
+"webpack": "^5.6.0",
+"webpack-cli": "^4.2.0",
+"webpack-dev-server": "^3.11.0"
+And I found a solution that adding a new script or in your Start Script in package.json worked for me. So you can try this way as well.
+
+ "dev": "webpack serve --mode development --env development"
+
+https://dev.to/jose1897/how-to-create-a-react-app-without-create-react-app-command-1fgc
+
+
+
+to load css files: npm install --save-dev css-loader
