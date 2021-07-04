@@ -1,0 +1,160 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #BBD1EA;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  flex-direction: column;
+}
+
+h1 {
+    color: #04080F;
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.add-todo-form {
+    background: #DAE3E5;
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 30px;
+    padding-top: 35px;
+}
+
+.add-todo-input {
+    height: 40px;
+    margin: 10px;
+    width: 450px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 0;
+}
+
+.btn-add {
+    background: #507DBC;
+    color: #BBD1EA;
+    margin: 15px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 0;
+}
+
+.btn-add:hover {
+    background: #BBD1EA;
+    color: #507DBC;
+    cursor: pointer;
+}
+
+.todo-list-container {
+    background: #A1C6EA;
+    color: #04080F;
+    width: 900px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+ 
+}
+
+li {
+    list-style: none;
+}
+
+.todo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-title {
+    font-size: 25px;
+    color: #1C2F4A;
+}
+
+.todo-update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #cccc00;
+    color: #04080F;
+    margin: 15px;
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 0;
+}
+
+.todo-update:hover {
+    cursor: pointer;
+    background: #666600;
+    color: #662200;
+}
+
+
+.todo-delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #cc0000;
+    color: #04080F;
+    margin: 15px;
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 0;
+}
+
+.todo-delete:hover {
+    cursor: pointer;
+    background: #ffbb99;
+    color: #662200;
+}
+
+.update-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-confirm-update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #009933;
+    color: #04080F;
+    margin: 15px;
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 0;
+}
+
+.btn-confirm-update:hover {
+    cursor: pointer;
+    background: #b3ffcc;
+    color: #004d1a;
+}
+
+.update-input {
+    height: 40px;
+    margin: 10px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 0;
+}
+
+.empty-todos {
+    margin: 25px;
+    font-size: 25px;
+    color: #1C2F4A;
+}

@@ -1,10 +1,10 @@
 import React from 'react'
 
+import Todo from './components/Todo'
+
 const App = () => {
   return (
-    <h1>
-      React App
-    </h1>
+    <Todo />
   )
 }
 
